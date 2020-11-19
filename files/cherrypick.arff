@@ -1,0 +1,12 @@
+@RELATION job_cost
+@ATTRIBUTE type 		 {M4,C4,R3,I2}
+@ATTRIBUTE vm_speed 	 {slow,fast}
+@ATTRIBUTE vcpus_per_vm  real
+@ATTRIBUTE ram_per_vm  	 real
+@ATTRIBUTE num_vms  	 real
+@ATTRIBUTE dist_type	 {ebs,local}
+@ATTRIBUTE disk_speed 	 {slow,fast}
+@ATTRIBUTE disk_count 	 real
+@ATTRIBUTE job_cost 	 real
+
+@DATA

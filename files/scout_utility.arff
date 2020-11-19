@@ -1,0 +1,9 @@
+@RELATION utility
+@ATTRIBUTE type  {C4,R4,M4}
+@ATTRIBUTE vcpus_per_vm  real
+@ATTRIBUTE ecus_per_vm  real
+@ATTRIBUTE ram_per_vm  real
+@ATTRIBUTE num_vms  real
+@ATTRIBUTE utility real
+
+@DATA

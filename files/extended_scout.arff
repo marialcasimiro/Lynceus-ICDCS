@@ -1,0 +1,12 @@
+@RELATION job_cost
+@ATTRIBUTE type {M4,C4,R4}
+@ATTRIBUTE vcpus_per_vm  real
+@ATTRIBUTE ecus_per_vm  real
+@ATTRIBUTE clock_frequency real
+@ATTRIBUTE ram_per_vm  real
+@ATTRIBUTE ebs_bandwidth real
+@ATTRIBUTE network_bandwidth {MODERATE, HIGH, UP_TO_10}
+@ATTRIBUTE num_vms  real
+@ATTRIBUTE job_cost real
+
+@DATA

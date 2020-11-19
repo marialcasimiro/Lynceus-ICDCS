@@ -1,0 +1,10 @@
+@RELATION job_cost
+@ATTRIBUTE nr_ps			real
+@ATTRIBUTE nr_workers  		real
+@ATTRIBUTE learning_rate	real
+@ATTRIBUTE batch_size		real
+@ATTRIBUTE synchronism		real
+@ATTRIBUTE vm_flavor		real
+@ATTRIBUTE job_cost 		real
+
+@DATA
